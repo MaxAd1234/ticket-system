@@ -1,9 +1,6 @@
 {
-    "name": "ticket-system-backend-dev",
-    "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
-    "features": {
-        "ghcr.io/devcontainers/features/git:1": {}
-    },
+    "name": "ticket-system-dev",
+    "image": "maven:3.9.6-eclipse-temurin-21",
     "customizations": {
         "vscode": {
             "extensions": [
